@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO1
+CATEGORIES:Esports,CS2,BO1
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: StarLadder Budapest Major 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-the-mongolz-11-12-2025
 DURATION:PT1H30M
 DTSTART:20251211T190000Z
 SUMMARY:CS2: Vitality vs The MongolZ
-UID:906f1c78-5c73-4b09-bd5b-ad2dfb44f164@906f.org
+UID:688adac3-b144-4cc3-9329-8b53cf3ea82b@688a.org
 URL:https://bo3.gg/matches/vitality-vs-the-mongolz-11-12-2025
 END:VEVENT
 END:VCALENDAR
