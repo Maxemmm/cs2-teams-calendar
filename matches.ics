@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO1,Esports,CS2
+CATEGORIES:BO1,CS2,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: StarLadder Budapest Major 2025\n⚔️ Format: BO1\n⏱️ Durée estimée: 1:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/spirit-vs-vitality-13-12-2025
 DURATION:PT1H30M
 DTSTART:20251213T160000Z
 SUMMARY:CS2: Spirit vs Vitality
-UID:791190a9-496d-41e4-9833-3ee6681f1f0a@7911.org
+UID:29c7155a-31ee-4ef4-8dab-0e6a262b5c4b@29c7.org
 URL:https://bo3.gg/matches/spirit-vs-vitality-13-12-2025
 END:VEVENT
 END:VCALENDAR
