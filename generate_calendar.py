@@ -84,15 +84,15 @@ def validate_config(config):
 
 def detect_match_format(match):
     """Détecte le format du match (BO1, BO3, BO5, BO7)"""
-    tournament_name = match.get('tournament', {}).get('name', '').lower()
-    
-    if 'bo7' in tournament_name:
+    bo_type = match.get('bo_type', {})
+
+    if bo_type == 7:
         return 'bo7'
-    elif 'bo5' in tournament_name or 'best of 5' in tournament_name:
+    elif bo_type == 5:
         return 'bo5'
-    elif 'bo3' in tournament_name or 'best of 3' in tournament_name:
+    elif bo_type == 3:
         return 'bo3'
-    elif 'bo1' in tournament_name or 'best of 1' in tournament_name:
+    elif bo_type == 1:
         return 'bo1'
     else:
         # Par défaut, assume BO1 pour les matchs rapides
