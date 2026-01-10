@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO5,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: StarLadder Budapest Major 2025\n⚔️ Format: BO5\n⏱️ Durée estimée: 6:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-faze-14-12-2025
-DURATION:PT6H30M
-DTSTART:20251214T170000Z
-SUMMARY:CS2: Vitality vs FaZe
-UID:2ba1ac6a-6617-411d-adcb-35f57714a7c4@2ba1.org
-URL:https://bo3.gg/matches/vitality-vs-faze-14-12-2025
+CATEGORIES:BO3,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Bounty Winter 2026: Closed Qualifier\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-virtus-pro-14-01-2026
+DURATION:PT4H
+DTSTART:20260114T183000Z
+SUMMARY:CS2: Vitality vs Virtus.pro
+UID:aeb06ded-1c7c-48c2-a915-bf9198aa054c@aeb0.org
+URL:https://bo3.gg/matches/vitality-vs-virtus-pro-14-01-2026
 END:VEVENT
 END:VCALENDAR
