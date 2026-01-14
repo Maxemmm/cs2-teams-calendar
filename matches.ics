@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
+CATEGORIES:CS2,Esports,BO3
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Bounty Winter 2026: Closed Qualifier\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-virtus-pro-14-01-2026
 DURATION:PT4H
 DTSTART:20260114T183000Z
 SUMMARY:CS2: Vitality vs Virtus.pro
-UID:1acb9e13-62a7-4744-9e7f-6cfc9425a5e6@1acb.org
+UID:c0b06ac2-6113-48f6-b563-3e156141bb52@c0b0.org
 URL:https://bo3.gg/matches/vitality-vs-virtus-pro-14-01-2026
 END:VEVENT
 END:VCALENDAR
