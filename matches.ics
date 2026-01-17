@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 CATEGORIES:CS2,Esports,BO3
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Bounty Winter 2026: Closed Qualifier\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-virtus-pro-14-01-2026
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Bounty Winter 2026: Closed Qualifier\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/eyeballers-vs-vitality-18-01-2026
 DURATION:PT4H
-DTSTART:20260114T183000Z
-SUMMARY:CS2: Vitality vs Virtus.pro
-UID:c0b06ac2-6113-48f6-b563-3e156141bb52@c0b0.org
-URL:https://bo3.gg/matches/vitality-vs-virtus-pro-14-01-2026
+DTSTART:20260118T160000Z
+SUMMARY:CS2: EYEBALLERS vs Vitality
+UID:2a5ebfb9-467a-4ae8-9431-594a71dad60f@2a5e.org
+URL:https://bo3.gg/matches/eyeballers-vs-vitality-18-01-2026
 END:VEVENT
 END:VCALENDAR
