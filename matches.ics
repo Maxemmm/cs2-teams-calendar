@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
+CATEGORIES:BO3,Esports,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Bounty Winter 2026: Closed Qualifier\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/eyeballers-vs-vitality-18-01-2026
 DURATION:PT4H
 DTSTART:20260118T160000Z
 SUMMARY:CS2: EYEBALLERS vs Vitality
-UID:cf8b133b-2f22-4f8d-879d-1f6bd75cfa78@cf8b.org
+UID:e96886b7-490f-4d87-a332-cb61bb1706b6@e968.org
 URL:https://bo3.gg/matches/eyeballers-vs-vitality-18-01-2026
 END:VEVENT
 END:VCALENDAR
