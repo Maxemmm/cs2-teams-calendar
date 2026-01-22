@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
+CATEGORIES:Esports,BO3,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Bounty Winter 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/gamerlegion-vs-vitality-23-01-2026
 DURATION:PT4H
 DTSTART:20260123T150000Z
 SUMMARY:CS2: GamerLegion vs Vitality
-UID:8c8ee28c-bb31-4e2b-93c3-797f7ec5427c@8c8e.org
+UID:f00ccac6-c17c-4db3-b794-213bc85a0901@f00c.org
 URL:https://bo3.gg/matches/gamerlegion-vs-vitality-23-01-2026
 END:VEVENT
 END:VCALENDAR
