@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO3,Esports
+CATEGORIES:Esports,BO3,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Kraków 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-d691576dbc-31-01-2026
 DURATION:PT4H
 DTSTART:20260131T130000Z
 SUMMARY:CS2: Vitality vs TBD
-UID:898e9cd4-fea7-416a-8dc3-37f12d2c8196@898e.org
+UID:e6009e4e-75be-45b8-ab7c-1416744a4f00@e600.org
 URL:https://bo3.gg/matches/vitality-vs-d691576dbc-31-01-2026
 END:VEVENT
 END:VCALENDAR
