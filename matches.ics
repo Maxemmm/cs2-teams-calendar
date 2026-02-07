@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Kraków 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-mousesports-07-02-2026
 DURATION:PT4H
 DTSTART:20260207T180000Z
 SUMMARY:CS2: Vitality vs MOUZ
-UID:44bef384-48fe-43be-94fc-9103788eec2f@44be.org
+UID:0192b2fc-b924-49d5-a8f8-81b7fe769749@0192.org
 URL:https://bo3.gg/matches/vitality-vs-mousesports-07-02-2026
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-g2-14-02-2026
 DURATION:PT4H
 DTSTART:20260214T140000Z
 SUMMARY:CS2: Vitality vs G2
-UID:4f642de4-b444-4ebc-9319-b82cc3f66df1@4f64.org
+UID:d80be743-a444-41c9-bd7d-9f21ed8b2b0b@d80b.org
 URL:https://bo3.gg/matches/vitality-vs-g2-14-02-2026
 END:VEVENT
 END:VCALENDAR
