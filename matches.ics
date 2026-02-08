@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO3,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-g2-14-02-2026
-DURATION:PT4H
-DTSTART:20260214T140000Z
-SUMMARY:CS2: Vitality vs G2
-UID:068d2812-9f2e-4dba-bcc4-ff1381cfd472@068d.org
-URL:https://bo3.gg/matches/vitality-vs-g2-14-02-2026
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO5
+CATEGORIES:BO5,CS2,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Kraków 2026\n⚔️ Format: BO5\n⏱️ Durée estimée: 6:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/furia-vs-vitality-08-02-2026
 DURATION:PT6H30M
 DTSTART:20260208T160000Z
 SUMMARY:CS2: FURIA vs Vitality
-UID:f000b366-de55-4129-abab-bd5c00e5b771@f000.org
+UID:63422298-42e9-4be0-83e1-bcd234757dfa@6342.org
 URL:https://bo3.gg/matches/furia-vs-vitality-08-02-2026
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:CS2,Esports,BO3
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-g2-14-02-2026
+DURATION:PT4H
+DTSTART:20260214T140000Z
+SUMMARY:CS2: Vitality vs G2
+UID:e1aa68c7-48de-46ff-b831-7def6750cd2a@e1aa.org
+URL:https://bo3.gg/matches/vitality-vs-g2-14-02-2026
 END:VEVENT
 END:VCALENDAR
