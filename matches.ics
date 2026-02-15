@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-g2-14-02-2026
+CATEGORIES:CS2,BO3,Esports
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-the-mongolz-15-02-2026
 DURATION:PT4H
-DTSTART:20260214T140000Z
-SUMMARY:CS2: Vitality vs G2
-UID:891caf13-c27f-4d37-9043-72f0b88d95fb@891c.org
-URL:https://bo3.gg/matches/vitality-vs-g2-14-02-2026
+DTSTART:20260215T170000Z
+SUMMARY:CS2: Vitality vs The MongolZ
+UID:f630b7ab-58fa-4201-9f56-f92f025662ca@f630.org
+URL:https://bo3.gg/matches/vitality-vs-the-mongolz-15-02-2026
 END:VEVENT
 END:VCALENDAR
