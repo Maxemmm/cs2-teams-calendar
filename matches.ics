@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,CS2,Esports
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/mousesports-vs-vitality-16-02-2026
 DURATION:PT4H
 DTSTART:20260216T140000Z
 SUMMARY:CS2: MOUZ vs Vitality
-UID:9d13d74a-1e5d-4371-ab9e-c74b4759fd57@9d13.org
+UID:d2a48ed4-2c7d-459d-af3f-79146b97969a@d2a4.org
 URL:https://bo3.gg/matches/mousesports-vs-vitality-16-02-2026
 END:VEVENT
 END:VCALENDAR
