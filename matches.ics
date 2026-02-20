@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-aurora-gaming-20-02-2026
 DURATION:PT4H
 DTSTART:20260220T140000Z
 SUMMARY:CS2: Vitality vs Aurora
-UID:b7a909c2-d33a-47d5-a4d5-e0f632695111@b7a9.org
+UID:8604940a-523f-4603-b2ab-6fc09b406a71@8604.org
 URL:https://bo3.gg/matches/vitality-vs-aurora-gaming-20-02-2026
 END:VEVENT
 END:VCALENDAR
