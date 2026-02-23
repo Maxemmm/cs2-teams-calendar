@@ -2,21 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO5,CS2,Esports
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: PGL Cluj-Napoca 2026\n⚔️ Format: BO5\n⏱️ Durée estimée: 6:30:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-parivision-22-02-2026
-DURATION:PT6H30M
-DTSTART:20260222T160000Z
-SUMMARY:CS2: PARIVISION vs Vitality
-UID:982d6e51-a5a0-4d9c-b666-4e84bedadc25@982d.org
-URL:https://bo3.gg/matches/vitality-vs-parivision-22-02-2026
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:CS2,BO3,Esports
+CATEGORIES:BO3,CS2,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Open Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-9z-19-03-2026
 DURATION:PT4H
 DTSTART:20260319T183000Z
 SUMMARY:CS2: Vitality vs 9z
-UID:75efc2a3-d589-48f9-98dd-629e14a9a722@75ef.org
+UID:3774adf8-feaa-46f2-81f2-0ccb2e61b227@3774.org
 URL:https://bo3.gg/matches/vitality-vs-9z-19-03-2026
 END:VEVENT
 END:VCALENDAR
