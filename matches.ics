@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
+CATEGORIES:BO3,CS2,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Open Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-9z-19-03-2026
 DURATION:PT4H
 DTSTART:20260319T183000Z
 SUMMARY:CS2: Vitality vs 9z
-UID:c24d25e6-2d68-4636-8665-8437a7e6c231@c24d.org
+UID:5dec8195-4799-4cf8-b3d5-2313d26eedd8@5dec.org
 URL:https://bo3.gg/matches/vitality-vs-9z-19-03-2026
 END:VEVENT
 END:VCALENDAR
