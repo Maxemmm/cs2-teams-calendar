@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,CS2,Esports
+CATEGORIES:Esports,CS2,BO3
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Open Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/the-mongolz-vs-vitality-21-03-2026
 DURATION:PT4H
 DTSTART:20260321T183000Z
 SUMMARY:CS2: The MongolZ vs Vitality
-UID:6c53e351-b387-4e7c-9aa3-efe77dd75356@6c53.org
+UID:df070495-e8bb-4313-921c-142ebdea9217@df07.org
 URL:https://bo3.gg/matches/the-mongolz-vs-vitality-21-03-2026
 END:VEVENT
 END:VCALENDAR
