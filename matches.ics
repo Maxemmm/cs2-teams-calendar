@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO3,Esports
+CATEGORIES:CS2,Esports,BO3
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Open Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/parivision-vs-vitality-23-03-2026
 DURATION:PT4H
 DTSTART:20260323T160000Z
 SUMMARY:CS2: Vitality vs PARIVISION
-UID:fca80f1d-113e-4326-91be-ffb98e3834c7@fca8.org
+UID:8b88f6ff-4703-48c2-8793-c3eee5c7ee25@8b88.org
 URL:https://bo3.gg/matches/parivision-vs-vitality-23-03-2026
 END:VEVENT
 END:VCALENDAR
