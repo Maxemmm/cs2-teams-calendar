@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Rio 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-red-canids-cs-go-13-04-2026
 DURATION:PT4H
 DTSTART:20260413T140000Z
 SUMMARY:CS2: Vitality vs RED Canids
-UID:1ad9fbf3-98ef-47ae-a89d-91b1c334aa3b@1ad9.org
+UID:a4d283c4-47dc-4823-bd88-0b3dcb849fe9@a4d2.org
 URL:https://bo3.gg/matches/vitality-vs-red-canids-cs-go-13-04-2026
 END:VEVENT
 END:VCALENDAR
