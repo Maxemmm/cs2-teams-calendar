@@ -7,7 +7,16 @@ DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Rio
 DURATION:PT4H
 DTSTART:20260413T130000Z
 SUMMARY:CS2: Vitality vs RED Canids
-UID:2b4f5917-3fe6-461b-81de-529d9ab8ba99@2b4f.org
+UID:0fb73a97-dcd1-4f4d-a141-21e8e5f6d65d@0fb7.org
 URL:https://bo3.gg/matches/vitality-vs-red-canids-cs-go-13-04-2026
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO3,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-fut-cs2-29-04-2026
+DURATION:PT4H
+DTSTART:20260429T150000Z
+SUMMARY:CS2: Vitality vs FUT
+UID:f164506f-9b4a-40d9-9dfe-fac60d3f1845@f164.org
+URL:https://bo3.gg/matches/vitality-vs-fut-cs2-29-04-2026
 END:VEVENT
 END:VCALENDAR
