@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,CS2,Esports
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Rio 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-red-canids-cs-go-13-04-2026
 DURATION:PT4H
 DTSTART:20260413T130000Z
 SUMMARY:CS2: Vitality vs RED Canids
-UID:87fd8ae8-230b-4a0e-8804-426722dc455f@87fd.org
+UID:5db4f074-b551-495f-aee8-f30623f652a6@5db4.org
 URL:https://bo3.gg/matches/vitality-vs-red-canids-cs-go-13-04-2026
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:BO3,CS2,Esports
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-fut-cs2-29-04-2026
 DURATION:PT4H
 DTSTART:20260429T150000Z
 SUMMARY:CS2: Vitality vs FUT
-UID:fec5864d-d3d3-419c-9c17-2d41f68b2834@fec5.org
+UID:1b835449-6f4b-49da-ac58-8114657855a1@1b83.org
 URL:https://bo3.gg/matches/vitality-vs-fut-cs2-29-04-2026
 END:VEVENT
 END:VCALENDAR
