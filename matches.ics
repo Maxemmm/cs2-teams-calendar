@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
+CATEGORIES:Esports,CS2,BO3
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-g2-30-04-2026
 DURATION:PT4H
 DTSTART:20260430T173000Z
 SUMMARY:CS2: Vitality vs G2
-UID:8f7d8abe-dc92-4fbf-90aa-5dd205a1849f@8f7d.org
+UID:99c9e55d-fade-425d-915b-8a6507a94a86@99c9.org
 URL:https://bo3.gg/matches/vitality-vs-g2-30-04-2026
 END:VEVENT
 END:VCALENDAR
