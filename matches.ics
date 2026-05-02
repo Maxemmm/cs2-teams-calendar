@@ -2,12 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
+CATEGORIES:BO3,Esports,CS2
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: BLAST Rivals Spring 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-gamerlegion-02-05-2026
 DURATION:PT4H
 DTSTART:20260502T203000Z
 SUMMARY:CS2: Vitality vs GamerLegion
-UID:f0e0e3d0-00c7-4240-898e-dd7ae264ba79@f0e0.org
+UID:777a9a6b-89c3-419c-8dcc-517188a82dfa@777a.org
 URL:https://bo3.gg/matches/vitality-vs-gamerlegion-02-05-2026
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:BO3,Esports,CS2
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Atlanta 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/vitality-vs-bc-game-11-05-2026
+DURATION:PT4H
+DTSTART:20260511T153000Z
+SUMMARY:CS2: Vitality vs BC.Game
+UID:21e26777-ad7e-4794-b1be-2430b320f6f5@21e2.org
+URL:https://bo3.gg/matches/vitality-vs-bc-game-11-05-2026
 END:VEVENT
 END:VCALENDAR
