@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO3,Esports
+CATEGORIES:CS2,Esports,BO3
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Atlanta 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/betboom-team-vs-vitality-12-05-2026
 DURATION:PT4H
-DTSTART:20260512T153000Z
+DTSTART:20260512T180000Z
 SUMMARY:CS2: Vitality vs BetBoom
-UID:329a5715-2a3e-42f4-aecf-3d4425ac3f56@329a.org
+UID:e6a8530c-1fe9-485d-bdc4-bc7293527817@e6a8.org
 URL:https://bo3.gg/matches/betboom-team-vs-vitality-12-05-2026
 END:VEVENT
 END:VCALENDAR
