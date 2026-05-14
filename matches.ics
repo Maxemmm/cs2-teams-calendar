@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Atlanta 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/faze-vs-vitality-13-05-2026
+CATEGORIES:BO3,CS2,Esports
+DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Atlanta 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/natus-vincere-vs-vitality-15-05-2026
 DURATION:PT4H
-DTSTART:20260513T153000Z
-SUMMARY:CS2: FaZe vs Vitality
-UID:1bd857eb-7553-4c53-a15d-f4b273b800e1@1bd8.org
-URL:https://bo3.gg/matches/faze-vs-vitality-13-05-2026
+DTSTART:20260515T203000Z
+SUMMARY:CS2: Natus Vincere vs Vitality
+UID:9a365055-fa08-4aba-891a-1d94276ccce9@9a36.org
+URL:https://bo3.gg/matches/natus-vincere-vs-vitality-15-05-2026
 END:VEVENT
 END:VCALENDAR
