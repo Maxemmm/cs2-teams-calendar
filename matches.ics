@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
+CATEGORIES:Esports,CS2,BO3
 DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Intel Extreme Masters Atlanta 2026\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: Vitality\n🔗 Lien: https://bo3.gg/matches/natus-vincere-vs-vitality-15-05-2026
 DURATION:PT4H
 DTSTART:20260515T203000Z
 SUMMARY:CS2: Natus Vincere vs Vitality
-UID:578ade70-6e50-4452-a1fc-e21f1eab911c@578a.org
+UID:2d434213-acb9-4afc-989e-a949bb55f5b4@2d43.org
 URL:https://bo3.gg/matches/natus-vincere-vs-vitality-15-05-2026
 END:VEVENT
 END:VCALENDAR
