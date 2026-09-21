@@ -139,6 +139,35 @@ Chaque exécution génère un rapport détaillé :
 - 📅 Nombre d'événements créés
 - 💾 Changements détectés ou non
 
+## 📱 S'abonner au calendrier (Apple / Android)
+
+Le fichier `.ics` étant régénéré et commité automatiquement 2x par jour, tu peux t'y **abonner** une seule fois : ton calendrier ira relire le fichier périodiquement au lieu d'avoir à le réimporter à chaque fois.
+
+Lien à utiliser (adapte `matches.ics` si tu as changé `output_file` dans `config.json`) :
+
+```
+https://raw.githubusercontent.com/Maxemmm/cs2-teams-calendar/main/matches.ics
+```
+
+### 🍎 Apple (macOS / iOS)
+
+1. App **Calendrier** → `Fichier > Nouvel abonnement...` (macOS) ou `Réglages > Calendrier > Comptes > Ajouter un compte > Autre > Calendrier en abonnement` (iOS)
+2. Colle l'URL ci-dessus (le préfixe `webcal://` fonctionne aussi et ouvre directement l'app si tu cliques le lien depuis Safari) :
+   ```
+   webcal://raw.githubusercontent.com/Maxemmm/cs2-teams-calendar/main/matches.ics
+   ```
+3. Choisis la fréquence d'actualisation (le plus fréquent disponible, ex. "toutes les heures")
+
+### 🤖 Android
+
+Android n'a pas d'abonnement natif : passe par **Google Calendar**, qui se synchronise ensuite automatiquement sur ton téléphone.
+
+1. Sur [calendar.google.com](https://calendar.google.com) (navigateur, pas l'app mobile) → `Autres agendas > + > À partir de l'URL`
+2. Colle l'URL `https://...` ci-dessus → `Ajouter l'agenda`
+3. Le calendrier apparaît ensuite automatiquement dans l'app Google Calendar sur Android
+
+> ⚠️ Ce sont les apps calendrier (Apple / Google) qui décident de la fréquence de rafraîchissement (souvent toutes les quelques heures), pas le rythme du cron GitHub Actions — l'affichage peut donc avoir un léger décalage après chaque mise à jour.
+
 ## 📁 Structure du projet
 
 ```
