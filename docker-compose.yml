@@ -11,6 +11,7 @@ services:
       - ./output:/app/output:rw
     environment:
       - TZ=UTC
+      - PANDASCORE_TOKEN=${PANDASCORE_TOKEN}
     restart: unless-stopped
     
   # Service de cron pour automatiser les générations
@@ -22,6 +23,7 @@ services:
       - ./output:/app/output:rw
     environment:
       - TZ=UTC
+      - PANDASCORE_TOKEN=${PANDASCORE_TOKEN}
     command: |
       sh -c '
         echo "Installer cron..." &&

@@ -18,7 +18,7 @@
 - **🔄 Mise à jour automatique** 2x par jour (00h et 12h UTC) via GitHub Actions
 - **🚀 Lancement manuel** possible à tout moment via l'interface GitHub
 - **📱 Compatible** avec tous les calendriers (Outlook, Google Calendar, Apple Calendar, etc.)
-- **🎮 Spécialisé Counter-Strike 2** avec API bo3.gg
+- **🎮 Spécialisé Counter-Strike 2** avec l'API officielle PandaScore
 - **🐳 Support Docker** pour déploiement en production
 - **🛠️ Configuration avancée** avec validation des paramètres
 - **📊 Logging professionnel** avec gestion d'erreurs robuste
@@ -29,9 +29,11 @@
 ### Méthode 1: GitHub Actions (Recommandée) 🌐
 
 1. **Fork** ce repository sur votre compte GitHub
-2. Modifiez `config.json` avec vos équipes préférées
-3. Le calendrier se mettra à jour **automatiquement** 2x par jour !
-4. Utilisez l'onglet "Actions" pour déclencher une mise à jour manuelle
+2. Créez une clé API gratuite sur [pandascore.co](https://pandascore.co) (aucune carte bancaire requise)
+3. Dans votre fork, allez dans `Settings > Secrets and variables > Actions` et ajoutez un secret nommé `PANDASCORE_TOKEN` avec votre clé
+4. Modifiez `config.json` avec vos équipes préférées
+5. Le calendrier se mettra à jour **automatiquement** 2x par jour !
+6. Utilisez l'onglet "Actions" pour déclencher une mise à jour manuelle
 
 ### Méthode 2: Installation locale 🖥️
 
@@ -52,7 +54,12 @@ pip install -r requirements.txt
 cp config.example.json config.json
 ```
 
-4. Lancez le script :
+4. Créez une clé API gratuite sur [pandascore.co](https://pandascore.co) et exportez-la :
+```bash
+export PANDASCORE_TOKEN="votre_token"
+```
+
+5. Lancez le script :
 ```bash
 python generate_calendar.py
 ```
@@ -82,7 +89,6 @@ Le fichier `config.json` est **obligatoire** ! Utilisez l'exemple fourni :
     "bo7": 9.0
   },
   "output_file": "matches.ics",
-  "base_url": "https://bo3.gg/matches/",
   "max_matches_per_team": 50,
   "timezone": "UTC",
   "calendar_name": "CS2 Teams Calendar",
@@ -91,6 +97,8 @@ Le fichier `config.json` est **obligatoire** ! Utilisez l'exemple fourni :
 }
 ```
 
+> ℹ️ La clé API PandaScore ne se met pas dans `config.json` : elle se fournit via la variable d'environnement `PANDASCORE_TOKEN` (secret GitHub Actions en production, export local en développement).
+
 ### 🔧 Options de configuration
 
 | Champ | Type | Obligatoire | Description |
@@ -98,7 +106,6 @@ Le fichier `config.json` est **obligatoire** ! Utilisez l'exemple fourni :
 | **`teams`** | `array` | ✅ | Liste des équipes CS2 à suivre |
 | **`match_durations`** | `object` | ⚪ | Durées estimées selon le format (heures) |
 | **`output_file`** | `string` | ✅ | Nom du fichier .ics généré |
-| **`base_url`** | `string` | ⚪ | URL de base pour les liens des matchs |
 | **`max_matches_per_team`** | `number` | ⚪ | Limite de matchs par équipe (défaut: 50) |
 | **`timezone`** | `string` | ⚪ | Force de l'environnement (défaut: UTC) |
 | **`calendar_name`** | `string` | ⚪ | Nom affiché du calendrier |
@@ -205,18 +212,19 @@ docker-compose up -d
 ### 💡 Conseils pour la configuration
 
 - ✅ **Recherche intelligente** : Le script trouve automatiquement l'équipe même avec des variations de nom
-- 🎯 **Noms exacts recommandés** : Utilisez les noms tels qu'ils apparaissent sur [bo3.gg](https://bo3.gg)
+- 🎯 **Noms exacts recommandés** : Utilisez les noms tels qu'ils apparaissent sur [PandaScore](https://pandascore.co)
 - 📝 **Case-sensitive** : Respectez la casse pour une correspondance optimale
 - 🔍 **Test local** : Testez votre configuration avant le déploiement production
 
 ## 🔗 API utilisée
 
-Ce projet utilise l'API **[bo3.gg](https://bo3.gg)** qui fournit :
-- 📊 Les données des équipes CS2 en temps réel
-- 🎮 Les matchs et tournois actuels
-- 📅 Les horaires et formats de matchs
-- 🔗 Les liens directs vers les pages des matchs
-- 🏆 Les informations de classement et statistiques
+Ce projet utilise l'API officielle **[PandaScore](https://pandascore.co)** (tier gratuit, sans carte bancaire) qui fournit :
+- 📊 Les données des équipes CS2
+- 🎮 Les matchs et tournois à venir
+- 📅 Les horaires et formats de matchs (BO1/BO3/BO5/BO7)
+- 📺 Les liens de stream quand ils sont disponibles
+
+> Le projet utilisait auparavant du scraping non-officiel de bo3.gg, mais ce site a mis en place une protection anti-bot qui bloque désormais les requêtes automatisées (403 Forbidden) — d'où la migration vers une API officielle et documentée, gratuite pour ce usage.
 
 ## 📈 Performance et fiabilité
 
