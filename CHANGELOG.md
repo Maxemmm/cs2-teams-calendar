@@ -1,5 +1,20 @@
 # 🎮 Changelog - CS2 Teams Calendar
 
+## [Version 3.0.0] - 2026-09-21
+
+### 🔄 Migration de source de données
+- **Remplacement de bo3.gg par l'API officielle PandaScore** : bo3.gg a mis en place une protection anti-bot qui renvoie désormais des erreurs 403 Forbidden sur les requêtes automatisées, rendant le scraping non-officiel (`cs2api`) inutilisable
+- **Nouvelle dépendance** : appels HTTP directs via `requests` vers `api.pandascore.co` (authentification par token, tier gratuit)
+- **Suppression de `cs2api`** et de la dépendance `python-dateutil` (non utilisée)
+- **Script simplifié** : suppression de l'usage d'`asyncio`, devenu inutile avec des appels HTTP synchrones
+- **Détection du format de match fiabilisée** : basée directement sur le champ `number_of_games` de PandaScore
+- **Déduplication des matchs** : un même match entre deux équipes suivies n'apparaît plus qu'une seule fois
+- **Lien de stream** dans les événements calendrier quand PandaScore en fournit un (remplace le lien bo3.gg)
+
+### 📋 Changements Breaking
+- Nécessite désormais une clé API PandaScore gratuite, fournie via la variable d'environnement `PANDASCORE_TOKEN` (secret GitHub Actions en CI)
+- Suppression du champ `base_url` dans `config.json` (n'est plus utilisé)
+
 ## [Version 2.0.0] - 2024-01-XX
 
 ### ✨ Nouvelles Fonctionnalités

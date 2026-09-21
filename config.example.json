@@ -14,7 +14,6 @@
         "bo7": 9.0
     },
     "output_file": "cs2_matches.ics",
-    "base_url": "https://bo3.gg/matches/",
     "max_matches_per_team": 50,
     "timezone": "UTC",
     "calendar_name": "Mes Équipes CS2 Préférées",

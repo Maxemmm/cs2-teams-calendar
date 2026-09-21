@@ -1,5 +1,5 @@
 {
-    "teams": ["Vitality"],
+    "teams": ["3DMAX"],
     "match_durations": {
         "bo1": 1.5,
         "bo3": 4.0,
@@ -7,7 +7,6 @@
         "bo7": 9.0
     },
     "output_file": "matches.ics",
-    "base_url": "https://bo3.gg/matches/",
     "max_matches_per_team": 50,
     "timezone": "UTC",
     "calendar_name": "CS2 Teams Calendar",
