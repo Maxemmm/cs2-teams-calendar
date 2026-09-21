@@ -28,9 +28,8 @@ services:
       sh -c '
         echo "Installer cron..." &&
         apt-get update && apt-get install -y cron &&
-        echo "0 0 * * * cd /app && python generate_calendar.py >> /var/log/cs2-calendar.log 2>&1" | crontab - &&
-        echo "0 12 * * * cd /app && python generate_calendar.py >> /var/log/cs2-calendar.log 2>&1" | crontab - &&
-        echo "Cron configuré pour 00h et 12h UTC" &&
+        echo "0 * * * * cd /app && python generate_calendar.py >> /var/log/cs2-calendar.log 2>&1" | crontab - &&
+        echo "Cron configuré pour une exécution toutes les heures" &&
         cron &&
         tail -f /var/log/cs2-calendar.log
       '

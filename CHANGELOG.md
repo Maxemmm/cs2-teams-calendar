@@ -1,5 +1,19 @@
 # 🎮 Changelog - CS2 Teams Calendar
 
+## [Version 3.2.0] - 2026-09-21
+
+### ⏰ Fréquence de mise à jour
+- **Passage à une exécution horaire** (au lieu de 2x/jour) pour mieux suivre les décalages fréquents d'horaires de matchs
+- Largement sous les limites de l'API PandaScore (1000 requêtes/heure) et gratuit sur GitHub Actions pour un repo public
+- Cron mis à jour dans le workflow GitHub Actions et dans le service cron du `docker-compose.yml`
+
+## [Version 3.1.0] - 2026-09-21
+
+### 🧹 Nettoyage du script
+- Suppression de tous les emojis du script (logs, docstrings, description des événements générés) pour un style plus sobre et professionnel
+- Ajout d'une `requests.Session()` partagée pour réutiliser les connexions HTTP entre les appels à l'API PandaScore
+- `main()` utilise désormais le logger au lieu de `print()`, cohérent avec le reste du script
+
 ## [Version 3.0.0] - 2026-09-21
 
 ### 🔄 Migration de source de données
