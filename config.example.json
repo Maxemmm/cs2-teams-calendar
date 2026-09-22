@@ -14,9 +14,5 @@
         "bo7": 9.0
     },
     "output_file": "cs2_matches.ics",
-    "max_matches_per_team": 50,
-    "timezone": "UTC",
-    "calendar_name": "Mes Équipes CS2 Préférées",
-    "include_tournament_info": true,
-    "include_team_info": true
+    "max_matches_per_team": 50
 }

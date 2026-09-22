@@ -41,7 +41,6 @@ DEFAULT_CONFIG = {
     },
     "output_file": "matches.ics",
     "max_matches_per_team": 50,
-    "timezone": "UTC",
 }
 
 # Session HTTP réutilisée sur toute l'exécution pour bénéficier du connection pooling
@@ -174,7 +173,8 @@ def match_stream_url(match):
 def fetch_all_matches(config, token):
     """Récupère et fusionne les matchs à venir pour toutes les équipes suivies."""
     all_matches = []
-    failed_teams = []
+    failed_teams = []  # échecs techniques (API, réseau...), potentiellement transitoires
+    not_found_teams = []  # équipe introuvable sur PandaScore (recherche confirmée sans résultat)
     seen_match_ids = set()
 
     for team_name in config['teams']:
@@ -185,7 +185,7 @@ def fetch_all_matches(config, token):
 
             if not team:
                 logger.warning(f"Équipe '{team_name}' introuvable sur PandaScore")
-                failed_teams.append(team_name)
+                not_found_teams.append(team_name)
                 continue
 
             team_id = team['id']
@@ -211,7 +211,7 @@ def fetch_all_matches(config, token):
             logger.error(f"Erreur lors de la récupération des données pour '{team_name}' : {e}")
             failed_teams.append(team_name)
 
-    return all_matches, failed_teams
+    return all_matches, failed_teams, not_found_teams
 
 
 def generate_calendar():
@@ -231,15 +231,23 @@ def generate_calendar():
     logger.info("Démarrage de la génération du calendrier...")
 
     try:
-        all_matches, failed_teams = fetch_all_matches(config, token)
+        all_matches, failed_teams, not_found_teams = fetch_all_matches(config, token)
 
         if failed_teams and len(failed_teams) == len(config['teams']):
             logger.error("Aucune équipe n'a pu être traitée. Vérifiez les noms d'équipes dans config.json")
             return False
 
         if not all_matches:
-            logger.info("Aucun match à venir trouvé pour les équipes suivies.")
-            return True
+            if len(config['teams']) == 1:
+                logger.info(
+                    "Aucun match trouvé pour l'équipe suivie. "
+                    "Vidage du calendrier pour éviter les matchs résiduels."
+                )
+                # On laisse le flux continuer : la boucle ci-dessous ne créera aucun
+                # événement, et le fichier sera réécrit vide plus bas.
+            else:
+                logger.info("Aucun match à venir trouvé pour les équipes suivies.")
+                return True
 
         cal = Calendar()
         cal.name = f"CS2 Teams Calendar ({len(config['teams'])} équipes)"
@@ -265,6 +273,8 @@ def generate_calendar():
 
         if failed_teams:
             logger.info(f"Équipes échouées : {', '.join(failed_teams)}")
+        if not_found_teams:
+            logger.info(f"Équipes introuvables : {', '.join(not_found_teams)}")
 
         return True
 

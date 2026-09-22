@@ -7,10 +7,6 @@
         "bo7": 9.0
     },
     "output_file": "matches.ics",
-    "max_matches_per_team": 50,
-    "timezone": "UTC",
-    "calendar_name": "CS2 Teams Calendar",
-    "include_tournament_info": true,
-    "include_team_info": true
+    "max_matches_per_team": 50
 }
   
