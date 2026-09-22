@@ -1,21 +1,4 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Playoffs\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: 3DMAX\n
-DURATION:PT4H
-DTSTART:20260925T120000Z
-SUMMARY:CS2: NIP vs 3DMAX
-UID:600fb0f4-7806-4749-9d14-7f1934474e6f@600f.org
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
-DESCRIPTION:🎮 Counter-Strike 2 Match\n📋 Tournoi: Playoffs\n⚔️ Format: BO3\n⏱️ Durée estimée: 4:00:00\n🔍 Équipe suivie: 3DMAX\n📺 Stream: https://kick.com/connect_en
-DURATION:PT4H
-DTSTART:20260922T160000Z
-SUMMARY:CS2: Inner Circle Esports vs 3DMAX
-UID:81ba7954-d811-49c9-b0b9-4dc2f401bb0c@81ba.org
-URL:https://kick.com/connect_en
-END:VEVENT
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
 END:VCALENDAR
