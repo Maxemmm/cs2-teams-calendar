@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
+CATEGORIES:CS2,BO3,Esports
 DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/ESLCS
 DURATION:PT4H
 DTSTART:20261003T090000Z
 SUMMARY:CS2: Vitality vs 1WIN
-UID:b6b54770-5fe7-4d0b-b057-f49f37ccb8dc@b6b5.org
+UID:f559c04e-3697-4f46-9f6a-294650fcb7b4@f559.org
 URL:https://www.twitch.tv/ESLCS
 END:VEVENT
 END:VCALENDAR
