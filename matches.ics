@@ -1,13 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
-DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/pelaajatcom
-DURATION:PT4H
-DTSTART:20261003T113000Z
-SUMMARY:CS2: Vitality vs 1WIN
-UID:18234223-b00c-44e6-8a59-35d576f1b8b1@1823.org
-URL:https://www.twitch.tv/pelaajatcom
-END:VEVENT
 END:VCALENDAR
