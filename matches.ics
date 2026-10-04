@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
-DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://kick.com/maj3r
+CATEGORIES:CS2,BO3,Esports
+DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/ESLCS
 DURATION:PT4H
-DTSTART:20261004T163000Z
-SUMMARY:CS2: Vitality vs Natus Vincere
-UID:1592508a-9f6b-4e8c-9a06-6b1ed85c762a@1592.org
-URL:https://kick.com/maj3r
+DTSTART:20261005T163000Z
+SUMMARY:CS2: Vitality vs Team Falcons
+UID:825bd866-08a1-48ac-befa-88c0946bc914@825b.org
+URL:https://www.twitch.tv/ESLCS
 END:VEVENT
 END:VCALENDAR
