@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
+CATEGORIES:CS2,Esports,BO3
 DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/watchfulTV
 DURATION:PT4H
 DTSTART:20261004T163000Z
 SUMMARY:CS2: Vitality vs Natus Vincere
-UID:11ebac1f-6667-4702-8e4e-8d5e7da1fc83@11eb.org
+UID:b55c8b6c-aa03-436c-aaee-4faefbb8775d@b55c.org
 URL:https://www.twitch.tv/watchfulTV
 END:VEVENT
 END:VCALENDAR
