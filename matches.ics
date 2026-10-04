@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
+CATEGORIES:Esports,CS2,BO3
 DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://kick.com/maj3r
 DURATION:PT4H
 DTSTART:20261004T163000Z
 SUMMARY:CS2: Vitality vs Natus Vincere
-UID:3293eafa-afd3-4265-bc52-64bc39b02a38@3293.org
+UID:1592508a-9f6b-4e8c-9a06-6b1ed85c762a@1592.org
 URL:https://kick.com/maj3r
 END:VEVENT
 END:VCALENDAR
