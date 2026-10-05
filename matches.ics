@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:BO3,Esports,CS2
-DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/bandurka
+CATEGORIES:CS2,Esports,BO3
+DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.youtube.com/watch?v=GWkVaZlFFRU
 DURATION:PT4H
 DTSTART:20261005T163000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:4beb4106-5709-42c5-8a54-28e6e2a06b4c@4beb.org
-URL:https://www.twitch.tv/bandurka
+UID:3ab8c491-2b17-403f-8ffb-44c90126bb01@3ab8.org
+URL:https://www.youtube.com/watch?v=GWkVaZlFFRU
 END:VEVENT
 END:VCALENDAR
