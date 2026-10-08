@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,BO3,Esports
+CATEGORIES:BO3,Esports,CS2
 DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/ESLCS
 DURATION:PT4H
 DTSTART:20261009T110000Z
 SUMMARY:CS2: Vitality vs PARIVISION
-UID:b8e460e4-a4c5-4bc9-9819-3ee0b888e5c3@b8e4.org
+UID:06f61fe7-a5d2-4061-bd5a-2c02defeadde@06f6.org
 URL:https://www.twitch.tv/ESLCS
 END:VEVENT
 END:VCALENDAR
