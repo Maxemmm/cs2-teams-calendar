@@ -1,13 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-CATEGORIES:BO3,CS2,Esports
-DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/ESLCS
-DURATION:PT4H
-DTSTART:20261010T134500Z
-SUMMARY:CS2: Aurora Gaming vs Vitality
-UID:0d817f2f-4882-4f60-8c9d-2ca82063326a@0d81.org
-URL:https://www.twitch.tv/ESLCS
-END:VEVENT
 END:VCALENDAR
