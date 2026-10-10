@@ -1,4 +1,13 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+CATEGORIES:BO5,CS2,Esports
+DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO5\nDurée estimée : 6:30:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/zonixxcs
+DURATION:PT6H30M
+DTSTART:20261011T150000Z
+SUMMARY:CS2: Vitality vs TBD
+UID:0c5ad17e-0d30-4de2-995d-3d7cfd91ccdb@0c5a.org
+URL:https://www.twitch.tv/zonixxcs
+END:VEVENT
 END:VCALENDAR
