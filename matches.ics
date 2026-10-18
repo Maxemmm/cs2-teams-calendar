@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
+CATEGORIES:BO3,CS2,Esports
 DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/pgl_cs2
 DURATION:PT4H
 DTSTART:20261024T130000Z
 SUMMARY:CS2: Vitality vs 9z
-UID:ef147dd7-a366-4b00-87b2-40f7ef91e459@ef14.org
+UID:e59a2f66-7a9d-4053-a8bb-e92b28594276@e59a.org
 URL:https://www.twitch.tv/pgl_cs2
 END:VEVENT
 END:VCALENDAR
