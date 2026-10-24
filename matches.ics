@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
-DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/pgl_cs2
+CATEGORIES:BO3,CS2,Esports
+DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/strogo
 DURATION:PT4H
 DTSTART:20261024T130000Z
 SUMMARY:CS2: Vitality vs 9z
-UID:1462e050-7d18-4862-b6b1-670aa4968ed1@1462.org
-URL:https://www.twitch.tv/pgl_cs2
+UID:df8ac0b5-abb4-4abb-9d45-320aa4fa7651@df8a.org
+URL:https://www.twitch.tv/strogo
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
+CATEGORIES:BO3,CS2,Esports
 DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
 DURATION:PT4H
 DTSTART:20261111T043000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:9a40c8c1-a1d9-40e8-a104-b61c26aa3516@9a40.org
+UID:24e30b31-1e47-4b6a-89a8-dffa3491f90d@24e3.org
 URL:https://www.twitch.tv/betboom_cs_ru
 END:VEVENT
 END:VCALENDAR
