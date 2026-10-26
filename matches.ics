@@ -7,7 +7,7 @@ DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée :
 DURATION:PT4H
 DTSTART:20261111T043000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:ac171b6f-6667-4b1a-bab4-cfada5403bee@ac17.org
+UID:bee4ec2c-5b3f-4cad-8de3-561ed736a9b4@bee4.org
 URL:https://www.twitch.tv/betboom_cs_ru
 END:VEVENT
 BEGIN:VEVENT
@@ -16,7 +16,7 @@ DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estim�
 DURATION:PT4H
 DTSTART:20261026T110000Z
 SUMMARY:CS2: Vitality vs FUT Esports
-UID:aadc424a-0a9e-453c-a68b-56d0db3c22d3@aadc.org
+UID:3c8df5c5-d4e1-4159-bf99-27d98196feb2@3c8d.org
 URL:https://www.twitch.tv/pgl_cs2
 END:VEVENT
 END:VCALENDAR
