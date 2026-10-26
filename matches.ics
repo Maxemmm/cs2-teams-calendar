@@ -2,12 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
+CATEGORIES:Esports,CS2,BO3
+DESCRIPTION:Counter-Strike 2\nTournoi : Group Stage\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/pgl_cs2
+DURATION:PT4H
+DTSTART:20261027T170000Z
+SUMMARY:CS2: Vitality vs Natus Vincere
+UID:7e007223-433a-4bc4-bd99-e28897b65ee6@7e00.org
+URL:https://www.twitch.tv/pgl_cs2
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Esports,CS2,BO3
 DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
 DURATION:PT4H
 DTSTART:20261111T053000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:beb6b870-b044-45b5-a53e-eeab827f59d9@beb6.org
+UID:d9d0f53e-8252-417c-813e-cacf7383900e@d9d0.org
 URL:https://www.twitch.tv/betboom_cs_ru
 END:VEVENT
 END:VCALENDAR
