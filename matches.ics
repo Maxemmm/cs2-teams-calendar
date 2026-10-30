@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
+CATEGORIES:BO3,CS2,Esports
 DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
 DURATION:PT4H
 DTSTART:20261111T053000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:1f730d3e-8366-4b6a-9c5d-561c820c7062@1f73.org
+UID:f0919f34-5127-4eb8-8830-8512a12cd630@f091.org
 URL:https://www.twitch.tv/betboom_cs_ru
 END:VEVENT
 BEGIN:VEVENT
-CATEGORIES:CS2,Esports,BO3
-DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/PGL
+CATEGORIES:BO3,CS2,Esports
+DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://kick.com/gaules
 DURATION:PT4H
 DTSTART:20261030T120000Z
 SUMMARY:CS2: Nemiga vs Vitality
-UID:6bdd9ffc-69d9-4e97-9a67-29209e550e0d@6bdd.org
-URL:https://www.twitch.tv/PGL
+UID:ed7e8d48-e1f5-48e6-b0e7-13179f9a0409@ed7e.org
+URL:https://kick.com/gaules
 END:VEVENT
 END:VCALENDAR
