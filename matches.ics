@@ -2,21 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
-DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/PGL
-DURATION:PT4H
-DTSTART:20261030T120000Z
-SUMMARY:CS2: Nemiga vs Vitality
-UID:cd51c2c2-a7ec-4b5a-af04-b32052fc6019@cd51.org
-URL:https://www.twitch.tv/PGL
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
+CATEGORIES:CS2,Esports,BO3
 DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
 DURATION:PT4H
 DTSTART:20261111T053000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:c49cf6a9-4b8b-402d-a2d1-ea1d3c5b348b@c49c.org
+UID:1f730d3e-8366-4b6a-9c5d-561c820c7062@1f73.org
 URL:https://www.twitch.tv/betboom_cs_ru
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:CS2,Esports,BO3
+DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/PGL
+DURATION:PT4H
+DTSTART:20261030T120000Z
+SUMMARY:CS2: Nemiga vs Vitality
+UID:6bdd9ffc-69d9-4e97-9a67-29209e550e0d@6bdd.org
+URL:https://www.twitch.tv/PGL
 END:VEVENT
 END:VCALENDAR
