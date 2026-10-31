@@ -2,21 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
+CATEGORIES:BO3,Esports,CS2
 DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
 DURATION:PT4H
 DTSTART:20261111T053000Z
 SUMMARY:CS2: Vitality vs Team Falcons
-UID:40c82aca-2b50-4330-a9c2-550c4fbf48b9@40c8.org
+UID:46615b0b-45f4-4a49-a076-74631ff48a3c@4661.org
 URL:https://www.twitch.tv/betboom_cs_ru
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:Esports,BO3,CS2
-DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/PGL
-DURATION:PT4H
-DTSTART:20261031T080000Z
-SUMMARY:CS2: Vitality vs MOUZ
-UID:241f77d0-f47d-48f3-8ec1-21216d00d1b7@241f.org
-URL:https://www.twitch.tv/PGL
 END:VEVENT
 END:VCALENDAR
