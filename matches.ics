@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-CATEGORIES:Esports,CS2,BO3
-DESCRIPTION:Counter-Strike 2\nTournoi : Group A\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
+CATEGORIES:CS2,Esports,BO3
+DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
 DURATION:PT4H
-DTSTART:20261112T043000Z
-SUMMARY:CS2: FURIA vs Vitality
-UID:bd460980-015d-4a3f-89a1-b7224bad5fae@bd46.org
+DTSTART:20261113T080000Z
+SUMMARY:CS2: Vitality vs MOUZ
+UID:ae72a863-30ba-47b3-89d9-86800e6db4d3@ae72.org
 URL:https://www.twitch.tv/betboom_cs_ru
 END:VEVENT
 END:VCALENDAR
