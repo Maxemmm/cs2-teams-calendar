@@ -1,13 +1,4 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
-BEGIN:VEVENT
-CATEGORIES:BO3,CS2,Esports
-DESCRIPTION:Counter-Strike 2\nTournoi : Playoffs\nFormat : BO3\nDurée estimée : 4:00:00\nÉquipe suivie : Vitality\nStream : https://www.twitch.tv/betboom_cs_ru
-DURATION:PT4H
-DTSTART:20261113T080000Z
-SUMMARY:CS2: Vitality vs MOUZ
-UID:42ff2454-8210-49c8-84b8-f386dc1d1e63@42ff.org
-URL:https://www.twitch.tv/betboom_cs_ru
-END:VEVENT
 END:VCALENDAR
